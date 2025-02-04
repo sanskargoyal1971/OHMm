@@ -1,0 +1,91 @@
+.sidebar {
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #e68a3f; /* Darker peach-orange for the sidebar */
+    padding: 25px 15px;
+    border-radius: 10px;
+}
+
+.sidebar img {
+    width: 20px;
+}
+
+.sidebar .menu {
+    display: block;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.sidebar .menu:hover {
+    transform: scale(1.1); /* Hover effect on the menu icon */
+}
+
+.sidebar .new-chat {
+    margin-top: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: #e68a3f; /* Keep the same color as the sidebar */
+    border-radius: 50px;
+    font-size: 14px;
+    color: #fff; /* White text for contrast */
+    cursor: pointer;
+    font-weight: 600; /* Make the font bolder */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Light text shadow for stroke effect */
+}
+
+.sidebar .recent {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .recent-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #fff; /* White text for consistency */
+    font-weight: 600; /* Bold font */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Light text shadow for stroke effect */
+}
+
+.sidebar .recent-entry {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 18px;
+    padding-right: 40px;
+    border-radius: 50px;
+    color: #fff; /* White text for consistency */
+    cursor: pointer;
+    background-color: #e68a3f; /* Keep the same color as the sidebar */
+    font-weight: 500; /* Slightly bolder font */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Light text shadow for stroke effect */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.sidebar .recent-entry:hover {
+    background-color: #ff9a4d; /* Light peach-orange on hover */
+    color: #fff; /* Keep the text white on hover */
+}
+
+.sidebar .bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .bottom-item {
+    padding-right: 10px;
+    cursor: pointer;
+    color: #fff; /* White text for consistency */
+    font-weight: 500; /* Slightly bolder font */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Light text shadow for stroke effect */
+}
+
+.sidebar .bottom-item:hover {
+    background-color: #ff9a4d; /* Light peach-orange on hover */
+    color: #fff; /* Keep the text white on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
